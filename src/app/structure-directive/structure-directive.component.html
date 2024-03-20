@@ -1,0 +1,60 @@
+<p class="bg-primary">structure-directive works!</p>
+
+
+
+<!-- ngif  -->
+
+  
+<!-- <input type="number" #number>
+<button type="submit" (click)="check(number.value)">Submit</button>
+<div *ngIf="display">
+  <ng-container *ngIf="a === 'true'; then ifPart else elsePart"></ng-container>
+</div>
+
+<ng-template #ifPart>
+  <h1>If Part Running as if Condition was true</h1>
+</ng-template>
+<ng-template #elsePart>
+  <h1>Else Part Running as else Condition was False</h1>
+</ng-template>  -->
+
+
+
+
+
+<!-- ngFor -->
+<!-- only even are red -->
+
+<!-- <div *ngFor=" let fruit of fruits;even as e" >
+<h1  [ngClass]="{'makered':e,'markyellow':!e}" > {{fruit}}</h1>
+<button *ngIf="e" >Click Me</button>
+</div> -->
+
+<!--working for objects in loop  -->
+<div *ngFor="let ob of object" >
+   <h1>{{ob.name}}  {{ob.lname}}</h1>
+   <h1 *ngFor="let hob of ob.hobbies">
+     <ul>
+      <li>{{hob}}</li>
+     </ul>
+  </h1>
+</div>
+
+
+
+
+
+
+
+
+<!-- <form enctype="multipart/form-data">
+<input type="file" #img>
+<button (click)="onimg(img.value)"></button>
+</form> -->
+
+
+<!-- <input type="file" (change)="onFileSelected($event)">
+<button (click)="onUpload()">Upload</button> -->
+
+
+<!-- <input type="file" (input)="submit($event)"> -->

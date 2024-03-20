@@ -1,0 +1,13 @@
+<p>parent-to-child works!</p>
+<h1>{{data}}</h1>
+
+<div *ngFor="let f of ob">
+   <ul>
+    <li>{{f.name}}</li>
+    <li>{{f.lnmae}}</li>
+    <ul *ngFor="let x of f.arr">
+        <li>{{x}}</li>
+       
+    </ul>
+   </ul>
+</div>
