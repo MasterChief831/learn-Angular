@@ -3,14 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { FetchDataApiComponent } from './fetch-data-api/fetch-data-api.component';
+import {HttpClientModule} from '@angular/common/http';
+import { ReportComponent } from './report/report.component'
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FetchDataApiComponent,
+    ReportComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
