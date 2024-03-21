@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./template-driven-form.component.css']
 })
 export class TemplateDrivenFormComponent {
+   
+  save(formData:any){
+    console.log(formData);
+    
+  }
+  user:{email:String,name:String }={
+       email:'',
+       name:''
 
+  }
+   
 }
