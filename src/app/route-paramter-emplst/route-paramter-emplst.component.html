@@ -1,0 +1,8 @@
+<p>route-paramter-emplst works!</p>
+<ul>
+    <!-- one way for routing  -->
+    <!-- <li *ngFor="let list of EMplist" routerLink="/list/{{list.id}}">{{list.id}} - {{list.name}}</li> -->
+
+    <!-- other way of routing see also ts -->
+    <li (click)="empDet(list)"   *ngFor="let list of EMplist" >{{list.id}} - {{list.name}}</li>
+</ul>

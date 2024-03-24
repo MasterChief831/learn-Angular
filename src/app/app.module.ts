@@ -13,6 +13,12 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { RoutingExampleComponent } from './routing-example/routing-example.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+import { LoginComponent } from './login/login.component';
+import { RouteParamterEmplstComponent } from './route-paramter-emplst/route-paramter-emplst.component';
+import { RouteParamterEmpdetailComponent } from './route-paramter-empdetail/route-paramter-empdetail.component';
+import { ParentChildRoutingProductsComponent } from './parent-child-routing-products/parent-child-routing-products.component';
+import { ParentChildRoutingTrouserComponent } from './parent-child-routing-trouser/parent-child-routing-trouser.component';
+import { ParentChildRoutingTshirtComponent } from './parent-child-routing-tshirt/parent-child-routing-tshirt.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +29,13 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
     ContactComponent,
     AboutComponent,
     RoutingExampleComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    LoginComponent,
+    RouteParamterEmplstComponent,
+    RouteParamterEmpdetailComponent,
+    ParentChildRoutingProductsComponent,
+    ParentChildRoutingTrouserComponent,
+    ParentChildRoutingTshirtComponent
   ],
   imports: [
     BrowserModule,
